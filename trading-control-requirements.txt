@@ -1,0 +1,12 @@
+# Trading Control App Requirements
+# Install with: pip install -r trading-control-requirements.txt
+
+flet[desktop]==0.28.3
+aiohttp==3.11.18
+asyncio-mqtt>=0.16.0
+requests>=2.31.0
+
+# Optional for enhanced features
+websockets>=12.0
+numpy>=1.24.0
+pandas>=2.0.0

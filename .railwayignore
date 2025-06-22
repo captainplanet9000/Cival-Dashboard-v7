@@ -1,0 +1,22 @@
+# Railway ignore file - exclude Python backend from frontend deployment
+python-ai-services/
+*.py
+*.pyc
+__pycache__/
+requirements.txt
+main_consolidated.py
+
+# Development files
+.git/
+.next/
+node_modules/
+.env.local
+.env
+
+# Documentation
+README.md
+DEPLOYMENT.md
+*.md
+
+# Build verification
+build-check.js
